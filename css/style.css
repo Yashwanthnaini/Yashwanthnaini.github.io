@@ -10,6 +10,26 @@
         padding-top: 1rem !important;
         padding-bottom: 1rem !important;
     }
+
+    .service-item .service-text .btn {
+        width: 112px !important;
+    }
+    .service-item .service-text .btn-square {
+        background: var(--light) !important;
+    }
+    .service-item .service-text h4 {
+        color: #FFFFFF !important;
+    }
+    .service-item .service-text {
+        background: rgba(15, 66, 41, .6) !important;
+    }
+    .service-item .service-img img {
+        transform: scale(1) !important;
+    }
+    
+    .service-item .service-text p {
+        color: var(--light) !important;
+    }
 }
 
 /********** Template CSS **********/
@@ -238,13 +258,6 @@ h6,
 }
 
 
-/*** Facts & Quote ***/
-.facts,
-.quote {
-    background: rgba(15, 66, 41, .6);
-}
-
-
 /*** Service ***/
 .service-item {
     position: relative;
@@ -295,6 +308,7 @@ h6,
     color: #FFFFFF;
 }
 
+
 .service-item:hover .service-text p {
     color: var(--light);
 }
@@ -309,6 +323,7 @@ h6,
 .service-item:hover .service-text .btn-square {
     background: var(--light);
 }
+
 
 .service-item .service-text .btn {
     width: 31px;
@@ -325,6 +340,7 @@ h6,
 .service-item:hover .service-text .btn {
     width: 112px;
 }
+
 
 
 /*** Project Portfolio ***/
